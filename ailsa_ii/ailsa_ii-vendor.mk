@@ -115,6 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_1080p_video_bu63165.so:system/vendor/lib/libchromatix_s5k2t8_1080p_video_bu63165.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_4k_preview_bu63165.so:system/vendor/lib/libchromatix_s5k2t8_4k_preview_bu63165.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_4k_video_bu63165.so:system/vendor/lib/libchromatix_s5k2t8_4k_video_bu63165.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_a3_preview_livephoto.so:system/vendor/lib/libchromatix_s5k2t8_a3_preview_livephoto.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_a3_preview_panorama.so:system/vendor/lib/libchromatix_s5k2t8_a3_preview_panorama.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_a3_preview_sport.so:system/vendor/lib/libchromatix_s5k2t8_a3_preview_sport.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_a3_vga_preview.so:system/vendor/lib/libchromatix_s5k2t8_a3_vga_preview.so \
@@ -126,10 +127,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2t8_cpp_hfr_60.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2t8_cpp_hfr_90.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2t8_cpp_liveshot.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_preview_livephoto.so:system/vendor/lib/libchromatix_s5k2t8_cpp_preview_livephoto.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_preview_panorama.so:system/vendor/lib/libchromatix_s5k2t8_cpp_preview_panorama.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_preview.so:system/vendor/lib/libchromatix_s5k2t8_cpp_preview.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_preview_sport.so:system/vendor/lib/libchromatix_s5k2t8_cpp_preview_sport.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_s5k2t8_cpp_snapshot_hdr.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_snapshot_livephoto.so:system/vendor/lib/libchromatix_s5k2t8_cpp_snapshot_livephoto.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2t8_cpp_snapshot.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_vga_liveshot.so:system/vendor/lib/libchromatix_s5k2t8_cpp_vga_liveshot.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_cpp_vga_preview.so:system/vendor/lib/libchromatix_s5k2t8_cpp_vga_preview.so \
@@ -159,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_preview.so:system/vendor/lib/libchromatix_s5k2t8_preview.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_preview_sport.so:system/vendor/lib/libchromatix_s5k2t8_preview_sport.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_snapshot_hdr.so:system/vendor/lib/libchromatix_s5k2t8_snapshot_hdr.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_snapshot_livephoto.so:system/vendor/lib/libchromatix_s5k2t8_snapshot_livephoto.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_snapshot.so:system/vendor/lib/libchromatix_s5k2t8_snapshot.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_vga_preview.so:system/vendor/lib/libchromatix_s5k2t8_vga_preview.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_vga_snapshot.so:system/vendor/lib/libchromatix_s5k2t8_vga_snapshot.so \
@@ -185,6 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib/libmmcamera2_q3a_release.so:system/vendor/lib/libmmcamera2_q3a_release.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
@@ -307,11 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zte/ailsa_ii/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zte/ailsa_ii/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/zte/ailsa_ii/proprietary/etc/cne/wqeclient/profile1.xml:system/etc/cne/wqeclient/profile1.xml \
-    vendor/zte/ailsa_ii/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
-    vendor/zte/ailsa_ii/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
-    vendor/zte/ailsa_ii/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
-    vendor/zte/ailsa_ii/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
     vendor/zte/ailsa_ii/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/zte/ailsa_ii/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/zte/ailsa_ii/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
